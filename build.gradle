@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        jcenter()
+        jcenter() { url "https://services.gradle.org/distributions/" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.13.0'
